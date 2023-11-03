@@ -68,7 +68,7 @@ const Form = () => {
             )}
             <div className="mb-4">
                 <label className="block text-white text-sm font-bold mb-2" htmlFor="nombre">
-                    Nombre
+                    Nombre *
                 </label>
                 <input
                     type="text"
@@ -82,12 +82,12 @@ const Form = () => {
             </div>
             <div className="mb-4">
                 <label className="block text-white text-sm font-bold mb-2" htmlFor="email">
-                    Correo
+                    Correo *
                 </label>
                 <input
                     type="email"
                     name="correo"
-                    value={formData.email}
+                    value={formData.correo}
                     onChange={handleChange}
                     className="w-full px-3 py-2 text-mcn-blue border rounded-lg focus:outline-none focus:shadow-outline bg-white"
                     id="correo"
@@ -96,12 +96,12 @@ const Form = () => {
             </div>
             <div className="mb-4">
                 <label className="block text-white text-sm font-bold mb-2" htmlFor="subject">
-                    Teléfono
+                    Teléfono *
                 </label>
                 <input
                     type="number"
                     name="number"
-                    value={formData.subject}
+                    value={formData.number}
                     onChange={handleChange}
                     className="w-full px-3 py-2 text-mcn-blue border rounded-lg focus:outline-none focus:shadow-outline bg-white"
                     id="number"
@@ -110,7 +110,7 @@ const Form = () => {
             </div>
             <div className="mb-4">
                 <label className="block text-je-white text-sm font-bold mb-2" htmlFor="mensaje">
-                    Empresa / Organización
+                    Empresa / Organización *
                 </label>
                 <input
                     type="text"
@@ -123,8 +123,10 @@ const Form = () => {
                 />
             </div>
             <button type="submit"
-            onClick={handleSubmit} 
-            className="w-full px-3 py-4 text-mcn-blue bg-slate-300 rounded-6xl focus:bg-mcn-skyblue focus:outline-none">Enviar
+                disabled={!formData.nombre || !formData.correo || !formData.number || !formData.empresa} 
+                className={`w-full px-3 py-4 text-white ${(!formData.nombre || !formData.correo || !formData.number || !formData.empresa) ? 'bg-gray-300' : 'bg-mcn-darksky'} rounded-6xl focus:outline-none`}
+                >
+                Enviar
             </button>
         </form>
     )
