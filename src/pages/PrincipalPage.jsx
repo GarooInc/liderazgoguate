@@ -15,7 +15,7 @@ const PrincipalPage = () => {
             <NavBar/>
             <section id='/' className="bg-white w-full pt-12 md:pt-20  flex items-center justify-center h-screen">
                 <div className="w-full max-w-screen-xl mx-4 md:mx-auto flex flex-col md:gap-8 rounded-6xl p-4 md:p-8 items-start justify-center">
-                    <Title text="Conversatorio" color="text-mcn-blue" textAlign="text-start" textsecondary={"“Liderazgo empresarial para superar la crisis democrática”"}/>
+                    <Title text="Conversatorio" color="text-mcn-blue" textAlign="text-start" textsecondary={"“Liderazgo empresarial para fortalecer la institucionalidad democrática”"}/>
                     <div className="flex flex-col justify-start w-full gap-4">
                         <span className="text-l md:text-xl font-semibold leading-6 text-mcn-blue cursor-pointer md:m-0">Martes 14 de noviembre 2023</span>
                         <span className="text-l md:text-xl font-semibold leading-6 text-mcn-blue cursor-pointer  md:m-0">Hora: 12pm a 2pm</span>
