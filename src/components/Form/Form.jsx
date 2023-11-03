@@ -124,7 +124,7 @@ const Form = () => {
             </div>
             <button type="submit"
             onClick={handleSubmit} 
-            className="w-full px-3 py-4 text-white bg-mcn-darksky rounded-6xl focus:bg-mcn-orange focus:outline-none">Enviar
+            className="w-full px-3 py-4 text-mcn-blue bg-slate-300 rounded-6xl focus:bg-mcn-skyblue focus:outline-none">Enviar
             </button>
         </form>
     )
