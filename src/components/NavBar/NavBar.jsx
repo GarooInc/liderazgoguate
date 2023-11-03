@@ -40,19 +40,19 @@ const NavBar = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:items-center lg:justify-end lg:flex-1 lg:gap-x-6 md:gap-x-4">
-              <a href="https://www.instagram.com/mcnguatemala/?hl=es" target="_blank" rel="noreferrer" className="text-white">
+              <a href="https://www.instagram.com/mcnguatemala/?hl=es" target="_blank" rel="noreferrer" className="text-white hover:text-mcn-orange">
                   <BsInstagram className="h-6 w-6" aria-hidden="true" />
               </a>
-              <a href="https://www.facebook.com/MCNGuatemala/?locale=es_LA" target="_blank" rel="noreferrer" className="text-white">
+              <a href="https://www.facebook.com/MCNGuatemala/?locale=es_LA" target="_blank" rel="noreferrer" className="text-white hover:text-mcn-orange">
                   <BsFacebook className="h-6 w-6" aria-hidden="true" />
               </a>
-              <a href="https://twitter.com/MCNGuatemala" target="_blank" rel="noreferrer" className="text-white">
+              <a href="https://twitter.com/MCNGuatemala" target="_blank" rel="noreferrer" className="text-white hover:text-mcn-orange">
                   <BsTwitter className="h-6 w-6" aria-hidden="true" />
               </a>
-              <a href="https://www.tiktok.com/@mcnguatemala?_t=8h20EAgX5fh&_r=1" target="_blank" rel="noreferrer" className="text-white">
+              <a href="https://www.tiktok.com/@mcnguatemala?_t=8h20EAgX5fh&_r=1" target="_blank" rel="noreferrer" className="text-white hover:text-mcn-orange">
                   <BsTiktok className="h-6 w-6" aria-hidden="true" />
               </a>
-              <a href="https://www.youtube.com/@MCNGuatemala" target="_blank" rel="noreferrer" className="text-white">
+              <a href="https://www.youtube.com/@MCNGuatemala" target="_blank" rel="noreferrer" className="text-white hover:text-mcn-orange">
                   <BsYoutube className="h-6 w-6" aria-hidden="true" />
               </a>
           </div>

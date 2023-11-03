@@ -10,6 +10,7 @@ const LogoClouds = () => {
         "/images/logoclouds/4.png",
         "/images/logoclouds/5.png",
         "/images/logoclouds/6.png",
+        "/images/logoclouds/7.png",
     ]
 
     return (
@@ -22,9 +23,7 @@ const LogoClouds = () => {
                     key={logo}
                     src={logo}
                     alt=""
-                    className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                    width={158}
-                    height={48}
+                    className="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
                 />
                 ))
             }

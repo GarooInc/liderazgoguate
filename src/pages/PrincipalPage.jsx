@@ -29,7 +29,7 @@ const PrincipalPage = () => {
                 <Form/>
             </section>
             <section id='/expositores' className="bg-mcn-skyblue w-full pt-12 md:pt-20 flex flex-col justify-center items-center">
-            <Title text="Expositores" color="text-white" textAlign="text-center"/>
+            <Title text="Expositores" color="text-mcn-blue" textAlign="text-center"/>
             <div className=" w-full  flex flex-wrap justify-center items-center">
             {
                 speakers.map((speaker, index) => (
