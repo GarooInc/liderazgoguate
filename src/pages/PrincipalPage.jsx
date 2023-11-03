@@ -17,10 +17,10 @@ const PrincipalPage = () => {
                 <div className="w-full max-w-screen-xl mx-4 md:mx-auto flex flex-col md:gap-8 rounded-6xl p-4 md:p-8 items-start justify-center">
                     <Title text="Conversatorio" color="text-white" textAlign="text-start" textsecondary={"“Liderazgo empresarial para superar la crisis democrática”"}/>
                     <div className="flex flex-col justify-start w-full gap-4">
-                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer mt-4 md:m-0">Martes 14 de noviembre 2023</span>
-                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer mt-4 md:m-0">Hora: 12pm a 2pm</span>
-                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer mt-4 md:m-0">Lugar: Cámara Guatemalteca de la Construcción</span>
-                        <span className="text-l font-semibold leading-6 text-mcn-skyblue cursor-pointer mt-4 md:m-0">*Invitación personal e intransferible</span>
+                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer md:m-0">Martes 14 de noviembre 2023</span>
+                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer  md:m-0">Hora: 12pm a 2pm</span>
+                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer  md:m-0">Lugar: Cámara Guatemalteca de la Construcción</span>
+                        <span className="text-l font-semibold leading-6 text-mcn-skyblue cursor-pointer md:m-0">*Invitación personal e intransferible</span>
                     </div>
                 </div>
             </section>
