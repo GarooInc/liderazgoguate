@@ -13,23 +13,23 @@ const PrincipalPage = () => {
     return (
         <div className='principalPage'>
             <NavBar/>
-            <section id='/' className="bg-mcn-blue w-full pt-12 md:pt-20  flex items-center justify-center h-screen">
+            <section id='/' className="bg-white w-full pt-12 md:pt-20  flex items-center justify-center h-screen">
                 <div className="w-full max-w-screen-xl mx-4 md:mx-auto flex flex-col md:gap-8 rounded-6xl p-4 md:p-8 items-start justify-center">
-                    <Title text="Conversatorio" color="text-white" textAlign="text-start" textsecondary={"“Liderazgo empresarial para superar la crisis democrática”"}/>
+                    <Title text="Conversatorio" color="text-mcn-blue" textAlign="text-start" textsecondary={"“Liderazgo empresarial para superar la crisis democrática”"}/>
                     <div className="flex flex-col justify-start w-full gap-4">
-                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer md:m-0">Martes 14 de noviembre 2023</span>
-                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer  md:m-0">Hora: 12pm a 2pm</span>
-                        <span className="text-l md:text-xl font-semibold leading-6 text-white cursor-pointer  md:m-0">Lugar: Cámara Guatemalteca de la Construcción</span>
+                        <span className="text-l md:text-xl font-semibold leading-6 text-mcn-blue cursor-pointer md:m-0">Martes 14 de noviembre 2023</span>
+                        <span className="text-l md:text-xl font-semibold leading-6 text-mcn-blue cursor-pointer  md:m-0">Hora: 12pm a 2pm</span>
+                        <span className="text-l md:text-xl font-semibold leading-6 text-mcn-blue cursor-pointer  md:m-0">Lugar: Cámara Guatemalteca de la Construcción</span>
                         <span className="text-l font-semibold leading-6 text-mcn-skyblue cursor-pointer md:m-0">*Invitación personal e intransferible</span>
                     </div>
                 </div>
             </section>
             <section id='/registro' className="bg-mcn-skyblue w-full md:pt-20  flex flex-col items-center justify-center py-12">
-                <Title text="Registro" color="text-mcn-blue" textAlign="text-center"/>
+                <Title text="Registro" color="text-white" textAlign="text-center"/>
                 <Form/>
             </section>
             <section id='/expositores' className="bg-mcn-skyblue w-full pt-12 md:pt-20 flex flex-col justify-center items-center">
-            <Title text="Expositores" color="text-mcn-blue" textAlign="text-center"/>
+            <Title text="Expositores" color="text-white" textAlign="text-center"/>
             <div className=" w-full  flex flex-wrap justify-center items-center">
             {
                 speakers.map((speaker, index) => (
