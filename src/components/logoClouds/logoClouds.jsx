@@ -15,9 +15,9 @@ const LogoClouds = () => {
 
     return (
       <div className="bg-white">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl md:px-6">
           <div className="marquee-container">
-          <div className="mx-auto mt-10 flex items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 marquee">
+          <div className="mx-auto mt-10 flex items-center gap-x-8 gap-y-16 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 marquee">
             {logos.map((logo) => (
                 <img
                     key={logo}
